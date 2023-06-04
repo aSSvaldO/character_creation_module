@@ -82,7 +82,7 @@ def choice_char_class(char_name: str) -> Character:
     approve_choice: str  = None
 
     while approve_choice != 'y':
-        selected_class = input('Введи название персонажа, '
+        selected_class = input('Введи название перdсонажа, '
                                'за которого хочешь играть: Воитель — warrior, '
                                'Маг — mage, Лекарь — healer: ')
         char_class: Character = game_classes[selected_class](char_name)
